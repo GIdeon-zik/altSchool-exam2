@@ -8,8 +8,8 @@ function App() {
 return (
 	<BrowserRouter>
 	<Routes>
-		<Route exact path='/' component={Home} />
-		<Route path="*" component={PageNotFound} />
+		<Route exact path='/' element={<Home />} />
+		<Route path="*" element={ <PageNotFound />} />
 	</Routes>
 	</BrowserRouter>
 );
