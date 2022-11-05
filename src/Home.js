@@ -12,7 +12,7 @@ const reducer = createReducer(initialState, {
   decrement: state => ({ count: state.count - 1 })
 });
 
-const Home = ({ initialCount }) => {
+function Home({ initialCount }){
   const [state, dispatch] = useReducer(reducer, { count: initialCount });
   return (
     <>
