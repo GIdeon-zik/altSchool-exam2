@@ -1,5 +1,5 @@
 import React from 'react'
-import createReducer from './components/createReducer';
+import createReducer from './components/ReactCounter';
 import { useReducer } from 'react';
 import ReactDOM from 'react-dom';
 import './style.css';
