@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Switch, BrowserRouter }
 		from 'react-router-dom'
 import Home from '.Home';
-import PageNotFound from './404Page';
+import PageNotFound from './PageNotFound';
 
 function App() {
 return (
