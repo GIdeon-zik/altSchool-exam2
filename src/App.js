@@ -2,7 +2,7 @@ import React from 'react'
 import createReducer from './components/createReducer';
 import { useReducer } from 'react';
 import ReactDOM from 'react-dom';
-import './styles.css';
+import './style.css';
 
 const initialState = { count: 0 };
 
