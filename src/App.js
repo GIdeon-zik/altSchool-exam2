@@ -1,6 +1,6 @@
 import React from 'react'
-import ReactCounter from './components/createReducer';
-import React, { useReducer } from 'react';
+import createReducer from './components/createReducer';
+import { useReducer } from 'react';
 import ReactDOM from 'react-dom';
 import './styles.css';
 
